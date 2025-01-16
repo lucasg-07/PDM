@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import Freecurrencyapi from '@everapi/freecurrencyapi-js';
 
-const api = new Freecurrencyapi('fca_live_czifQvLxhEZPtAWsh06kKQ8YVFAMU5hMOldfGUvi');
+const api = new Freecurrencyapi('chaveAPI');
 
 // Recriar __dirname no ambiente ESM
 const __filename = fileURLToPath(import.meta.url);
